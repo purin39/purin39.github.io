@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+}
+
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #fff;
+  background-image:url("images/backgroundImage.jpg");
+  font-size: 14px;
+}
+
+span.red{
+    color: red;
+}
+
+header {
+    background-image: url("images/suzukiTomoyuki_backgroundImage.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-bottom:100px;
+    box-shadow:0 5px 5px 5px rgba(180, 140, 0, 0.2);
+}
+
+#logo{
+    padding: 20px 0;
+    text-align: center;
+}
+
+#logo img{
+    max-width: 120px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+
+#logo h1{
+    letter-spacing: 0.25em;
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.container{
+    max-width: 800px;
+    min-height: 100%;
+    margin: -100px auto 0;
+    background-color: #fff;
+    box-shadow:0 5px 5px 5px rgba(255,255,255,0.5);
+}
+
+section{
+    padding: 30px 20px;
+    overflow:hidden;
+}
+
+section h2{
+    padding: 0 0 10px 0;
+    text-align: center;
+    letter-spacint: 0.15em;
+}
+
+section p{
+  width:80%;
+  margin:0 auto 10px;
+}
+
+section ul{
+  width:80%;
+  text-align:center;
+  margin:0 auto;
+  padding-bottom:20px;
+  overflow:hidden;
+}
+
+section ul li.works{
+  width:200px;
+  margin:0 1px 20px;
+  float:left;
+}
+
+footer{
+    padding: 20px 0;
+    font-size: 93%;
+    text-align: center;
+    background-color: #444;
+    color: #999;
+}
